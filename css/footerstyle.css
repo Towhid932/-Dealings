@@ -1,0 +1,127 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins';
+}
+.header h1 span{
+    color:darkorange;
+}
+
+
+.footer-section{
+    text-align: center;
+    background:#0e0e0e;
+    margin:0;
+}
+.footer-section h1{
+    color:#fff;
+    font-size: 50px;
+}
+.footer-section h1 span{
+    color:darkorange;
+}
+.footer-section p{
+    color:#fff;
+    padding:0;
+}
+#footer-quotes{ /*Love yourself*/
+    padding-bottom:5px;
+}
+.footer-link{   /*FacebookInstagram*/
+    padding-bottom:5px;
+}
+.footer-link a{ /*FacebookInstagram*/
+    text-decoration: none;
+    padding:0 15px;
+    color:#fff;
+}
+.footer-section .devlp{
+    padding-bottom: 5px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px gray;
+}
+.devlp a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:1440px) {
+    .devlp a {
+            color: white;
+    }
+    
+}
+@media only screen and (max-width:1200px) {
+    .footer-section h1{
+    font-size: 50px;
+    }.devlp a {
+            color: green;
+    }
+    
+}
+@media only screen and (max-width:1000px) {
+    .footer-section h1{
+    font-size: 45px;
+    }
+    .devlp a {
+            color: yellow;
+    }
+    
+}
+@media only screen and (max-width:900px) {
+    .footer-section h1{
+    font-size: 35px;
+    }
+    .devlp a {
+            color: orange;
+            font-size: 23px;
+    }
+    
+}@media only screen and (max-width:700px) {
+    .footer-section h1{
+    font-size: 30px;
+    }
+    .devlp a {
+            color: navy;
+    }
+    
+}
+@media only screen and (max-width:550px) {
+    .footer-section h1{
+    font-size: 27px;
+    }
+    .devlp a {
+            color: cyan;
+            font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width:500px) {/*Last computer size*/
+    .footer-section h1{
+    font-size: 25px;
+    }
+    .devlp a {
+            padding: 10px 0;
+            color: brown;
+            font-size: 20px; 
+    }
+    
+}
+@media only screen and (max-width:300px) {/*Last computer size*/
+    .footer-section h1{
+    font-size: 15px;
+    }
+    .devlp a {
+            padding: 10px 0;
+            color: brown;
+            font-size: 12px; 
+    }
+    
+}
+
+
+
