@@ -1,0 +1,461 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.w-30{
+        width: 33.3%;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        width: 100%;
+}
+
+#login-section {
+        padding: 100px 0;
+}
+
+#login-section h1 {
+        font-size: 38px;
+        font-weight: 500;
+        color: #212529;
+        text-align: center;
+}
+
+#login-section .wraper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+#login-section .form-section {
+        margin-top: 50px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px grey;
+        width: 35%;
+        position: relative;
+}
+
+#login-section .form-section h3 {
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #212529;
+} 
+
+#login-section .name-section {
+        width: 40%;
+        text-align: center;
+}
+
+#login-section .name-section img {
+        width: 40%;
+        margin-top: 30px;
+}
+
+#login-section .form-section input[type="email"],
+#login-section .form-section input[type="password"] {
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        transition: all .2s;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+}
+
+#login-section .form-section input[type="email"]:focus,
+#login-section .form-section input[type="password"]:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(152, 196, 243, 0.25);
+}
+
+#login-section .form-section input[type="email"]:invalid,
+#login-section .form-section input[type="password"]:invalid{
+        border-color: #e22424;
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(255, 0, 0, 0.25);
+}
+
+#login-section .form-section #login {
+         color: #fff;
+        background-color: #28a745;
+        display: inline-block;
+        font-weight: 400;
+        border: 1px solid #28a745;
+        padding: 8px 12px;
+        font-size: 15px;
+        border-radius: 6px;
+        transition: all .2s;
+        cursor: pointer;  
+        outline: none; 
+}
+
+#login-section .form-section #login:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+}
+
+#login-section .form-section #login:focus {
+        box-shadow: 0 0 0 .2rem rgba(72,180,97,.5);
+}
+.upt{font-family: Copperplate, Papyrus, fantasy;}
+.devloped {padding-top: 10px;font-style: italic;text-align: center;  font-family: 'Brush Script MT', cursive;}
+.form-section span{color:darkorange;text-align: center;font-size: 15px;}
+
+
+/* ACCOUNT SECTION IS STARTED */
+
+#display-section {
+        padding: 0;
+        background: linear-gradient(90deg, rgba(0,0,0,1) 51%, rgba(9,9,121,1) 68%, rgba(245,245,245,1) 100%);
+}
+#display-section .wraper1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+#display-section .name-section h1{
+              text-align: center;
+              color: rgba(255,0,0,0.1);
+              text-transform: uppercase;
+              font-size: 38px;
+              font-weight: 500;
+              background-size: cover;
+              background-image: url(https://cdn-images-1.medium.com/max/2000/1*Jalb56N34pBIGCjQULtW3A.jpeg);
+              -webkit-background-clip: text;
+              animation: background-text-animation 15s linear infinite;
+            }
+            @keyframes background-text-animation {
+                  0%{
+                    background-position: left 0px top 50%;
+                  }
+                  50%{
+                    background-position: left 1500px top 50%;
+                  }
+                  100%{
+                    background-position: left 0px top 50%;
+                  }
+                }
+                #display-section .name-section h3{color: white;padding-top: 10px;}
+
+#display-section .form-section {
+        margin-left: 50px;
+        padding: 4px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px grey;
+        width: 50%;
+        position: relative;
+}
+#form img{
+  height: 350px;
+  float: right;
+}
+
+
+#account-section-1149 {display: none;}
+#account-section-219 {display: none;}
+#account-section-645 {display: none;}
+#account-section-429 {display: none;}
+#account-section-230 {display: none;}
+#account-section-262 {display: none;}
+#account-section-279 {display: none;}
+#account-section-1126 {display: none;}
+#account-section-726 {display: none;}
+
+#account-section-950 {display: none;}
+#account-section-1150 {display: none;}
+#account-section-1141 {display: none;}
+#account-section-259 {display: none;}
+#account-section-sar {display: none;}
+#account-section-811 {display: none;}
+#account-section-743 {display: none;}
+
+
+/*#footerId {display: none;}*/
+
+#account-section{
+  width: 100%;
+  background-color: black;
+}
+
+.wraper-two {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        padding: 0 50px;
+        margin: auto;
+        background-color: black;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.diposit-box {
+    background-image: linear-gradient(to right, #5644ca, #6a5cc3);
+    padding: 23px;
+    box-sizing: border-box;
+    margin: 5px 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.credit-box {
+    background-image: linear-gradient(to right, #fd8758, #ffad8d);
+    padding: 23px;
+    box-sizing: border-box;
+    margin: 0 30px;
+    color: #fff;
+        border-radius: 10px;
+}
+
+.total-blns {
+        background-image: linear-gradient(to right, #ffa500, #ffbd43);
+        background-color: orange;
+        padding: 23px;
+        box-sizing: border-box;
+        margin: 0 30px;
+        color: #fff;
+        border-radius: 10px;
+}
+
+#account-section h5 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 5px;
+}
+
+#account-section h2 {
+        font-size: 32px;
+        font-weight: 500;
+}
+
+
+
+
+/* ACCOUNT INPUT SECTION */
+#account-input-section{
+        padding: 0;
+}
+
+#account-input-section .input-wraper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin: auto;
+        grid-column-gap: 30px;
+        background-color: red;
+}
+#account-input-section .input-wraper img{
+      	width: 40%;
+      }
+
+
+
+
+
+
+
+
+
+#account-input-section button {
+        color: #fff;
+        background-color: #28a745;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 400;
+        border: 1px solid #28a745;
+        padding: 8px 10px;
+        font-size: 16px;
+        border-radius: 3px;
+        transition: all .2s;
+        margin-top: 25px;
+        outline: none;
+}
+
+/* Modal Content */
+#modal-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        left: 0%;
+        top: -25%;
+        background-color: red;
+        margin: auto;
+        padding: 15px;
+        border: 1px solid #de0000;
+        width: 95%;
+        color: #FFF;
+        transition: all .7s;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+      
+      /* The Close Button */
+      .close {
+        color: #FFF;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: -10px;
+    }
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+
+
+
+/*fkjsadfjsakdjf*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Header/logo Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+#imge1{
+  width: 100%;
+  padding: 0;
+}
+#imge2{  width: 100%;  padding: 0;  background-image: url(img/IMG-20210517-WA0167.jpg);  background-position: center;  background-repeat: no-repeat;  background-size: cover; position: relative;}
+#imge3{width: 75%; height: 250px; font-size: 15px; background-image: url("img/IMG-20210517-WA0257.jpg"); background-size: 100% 100px; background-repeat: no-repeat; background-position: center;}
+#imge4{width: 75%; height: 250px; font-size: 15px; background-image: url("img/IMG_1621264412577.jpg"); background-size: 100% 100px; background-repeat: no-repeat; background-position: center;}
+#imge5{width: 75%; height: 250px; font-size: 15px; background-image: url("img/IMG_1621264412577.jpg"); background-size: 100% 100px; background-repeat: no-repeat; background-position: center;}
+#imge6{width: 75%; height: 250px; font-size: 15px; background-image: url("img/IMG-20210517-WA0075.jpg"); background-size: 100% 100px; background-repeat: no-repeat; background-position: center;}
+#imge7{width: 75%; height: 250px; font-size: 15px; background-image: url("img/IMG-20210517-WA0257.jpg"); background-size: 100% 100px; background-repeat: no-repeat; background-position: center;}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 300px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+/*CountDown Start Point*/
+.ttime {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}   /*CountDown End Point*/
+.fakeimg a{text-decoration: none;}
+
+.footer {
+  height: 150px;
+  padding: 20px;
+  background: #ddd;
+}
+.footerh2{
+  text-align: center;
+  top: 80px;
+}
